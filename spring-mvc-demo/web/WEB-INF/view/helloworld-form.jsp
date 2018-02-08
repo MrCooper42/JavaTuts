@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Menu</title>
+    <title>Hello World Form</title>
 </head>
 <body>
-<h2>Spring MVC Demo - Home Page</h2>
-
-<hr>
-
-<a href="hello/showForm">Hello World Form</a>
-
+<form action="processFormVersionThree" method="GET">
+    <input type="text" name="studentName" placeholder="What's your name?"/>
+    <input type="submit"/>
+</form>
 </body>
 </html>
